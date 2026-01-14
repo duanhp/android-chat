@@ -93,7 +93,7 @@ public class Config {
      * <p>
      * 野火提供的测试服务会记录语音文件和转换后的文字，上线会有可能泄密风险。因此请确保务必上线时购买部署自己的语音转文字服务，或者设置为null
      */
-    public static String ASR_SERVER_URL = "https://app.wildfirechat.net/asr/api/recognize";
+    public static String ASR_SERVER_URL = null;//"https://app.wildfirechat.net/asr/api/recognize";
 
     /**
      * 组织通讯录服务地址，如果需要组织通讯录功能，请部署组织通讯录服务，然后这里填上组织通讯录服务地址；如果不需要组织通讯录功能，请置为 null

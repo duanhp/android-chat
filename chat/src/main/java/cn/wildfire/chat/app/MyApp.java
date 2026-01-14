@@ -32,7 +32,7 @@ public class MyApp extends BaseApp implements OnConnectToServerListener {
     public static String BUGLY_ID = "15dfd5f6d1";
 
     public static String routeHost = Config.IM_SERVER_HOST;
-    public static int routePort = 80;
+    public static int routePort = 8000;
 
     public static String longLinkHost;
 
